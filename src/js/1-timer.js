@@ -10,7 +10,6 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     userSelectedDate = selectedDates[0];
-    // Перевірка на валідність дати
     if (userSelectedDate < new Date()) {
       iziToast.error({
         title: 'Error',
