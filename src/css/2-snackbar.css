@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fieldset {
+    display: flex;
+    justify-content: center;
+  }
+  .link {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
